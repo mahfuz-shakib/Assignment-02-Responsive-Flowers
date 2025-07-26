@@ -194,3 +194,144 @@ span{
 
 }
 
+.deals
+{
+    text-align: center;
+    margin: 130px auto;
+}
+.deals-title
+{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: -20px;
+}
+.deals-description
+{
+    font-size: 22px;
+    width: 888px;
+    margin: 45px auto;
+
+}
+.flowers-advertise
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bloom-container
+{
+    background-image: url('../assets/deal-bloom.png');
+}
+.ana-container
+{
+  background-image: url('../assets/deal-ana.png');
+}
+.zabo-container
+{
+    margin-top: 20px;
+    background-image: url('../assets/deal-zabo.png');
+    background-repeat: no-repeat;
+    width: 753px;
+    height:419px;
+    border-radius: 14px;
+}
+.bloom-container, .ana-container
+{
+    background-repeat: no-repeat;
+    width: 367px;
+    height: 199px;
+    border-radius: 14px;
+    
+}
+.bloom,.ana, .shop-now{
+    padding-top: 60px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.zabo{
+    padding-top: 140px;
+    margin-bottom:15px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.zabo-shop-now{
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+}
+.call-to-join
+{
+    text-align: center;
+    background-image: url('../assets/news-letter-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1530px;
+    height: 533px;
+    margin-left: -200px;
+}
+.action-container
+{
+    padding-top: 160px;
+}
+.join-title
+{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+#email
+{
+    width: 575px;
+    font-size: 16px;
+    color: grey;
+    padding: 10px;
+}
+.subscribe
+{
+    width: 185px;
+    height: 42px;
+    font-size: 16px;
+    padding: 10px;
+    margin-left: -5px;
+    color: white;
+    background-color: #E95A08;
+    border: none;
+}
+
+
+
+footer{
+    margin:50px auto;
+}
+.footer-container
+{
+    display: flex;
+    justify-content: space-between;
+    gap:75px;
+    color: grey;
+}
+.content
+{
+    width:360px;
+}
+.links{
+    list-style: none;
+    margin-top: -30px;
+}
+.link-item
+{
+    text-decoration: none;
+    color: grey;
+}
+.links li{
+    margin-top: 30px;
+}
+
+.contact-icon
+{
+    margin-left: 24px;
+}
+
