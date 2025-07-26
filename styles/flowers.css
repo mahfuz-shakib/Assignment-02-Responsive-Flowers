@@ -1,6 +1,6 @@
 body
 {
-    max-width: 1140px;
+    max-width: 71.25rem;
     margin: 0 auto;
 }
 .inter-normal {
@@ -28,12 +28,12 @@ body
 
 /* nav */
 .navigation{
-    margin-top: 30px;
+    margin-top: 1.875rem;
     justify-content: space-between;
     align-items: center;
 }
 .nav-menu{
-    gap: 50px;
+    gap: 3.125rem;
 }
 .nav-menu li{
     list-style: none;
@@ -57,34 +57,38 @@ body
     {
         width: 63px;
         height: 38px;
+        margin-left: 25px;
     }
     .responsive-hidden{
         display: none;
         justify-content: center;
     }
+    .cart{
+        margin-right: 25px;
+    }
 }
 
 .hero-section{
-    margin-top: 130px;
+    margin-top: 8.125rem;
     justify-content: space-between;
     align-items: end;
 }
 .hero-title
 {
-    font-size: 65px;
+    font-size: 4.0625rem;
     font-weight: bold;
-    margin-bottom: -5px;
+    margin-bottom: -0.3125rem;
 }
 span{
     color: #E95A08;
 }
 .hero-description{
-    font-size: 22px;
-    margin-bottom: -5px;
+    font-size: 1.375rem;
+    margin-bottom: -0.3125rem;
 }
 .hero-flower{
-    width: 570px;
-    height: 355px;
+    width: 35.625rem;
+    height: 22.1875rem;
 }
 
 @media screen and (max-width: 576px) {
@@ -96,36 +100,39 @@ span{
     height: 250px;
    }
    .hero-title{
-    font-size: 24px;
+    font-size: 1.5rem;
+    margin-top: 45px;
+    margin-left: 25px;
    }
    .hero-description{
     font-size: 14px;
+    margin: 25px;
    }
 }
 
 .our-plants
 {
-    margin-top: 130px;
+    margin-top: 8.125rem;
     text-align: center;
 }
 .plant-title
 {
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: bold;
-    margin-bottom: -20px;
+    margin-bottom: -1.25rem;
 }
 .plant-description
 {
     color: grey;
-    font-size: 22px;
-    width: 870px;
-    margin: 40px auto;
+    font-size: 1.375rem;
+    width: 54.375rem;
+    margin: 2.5rem auto;
 }
 .plant-container
 {
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap:30px 20px;
+    gap:1.875rem 1.25rem;
 }
 .plant-card
 {
@@ -133,23 +140,75 @@ span{
 }
 .flower-name,.price
 {
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: 500;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 .price{
     font-weight: 700;
-    margin-top: -10px ;
-    margin-bottom: 20px;
+    margin-top: -0.625rem ;
+    margin-bottom: 1.25rem;
 }
 .add-to-cart
 {
-    width: 270px;
-    height:50px;
+    width: 16.875rem;
+    height:3.125rem;
     background-color: #E95A08;
     color: white;
     font-size: 1rem;
     border: none;
+}
+
+/*  */
+@media screen and (max-width:576px) {
+.our-plants
+{
+    margin: 50px 25px;
+    max-width: 576px;
+}
+.plant-title
+{
+    font-size: 24px;
+    margin-bottom: -20px;
+}
+.plant-description
+{
+    font-size: 14px;
+    width: 90%;
+}
+    .plant-container
+    {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 26px 20px;
+        width: 100%;
+    }
+    .plant-card
+    {
+        text-align: center;
+    }
+    .sample-flower
+    {
+        max-width: 240px;
+        height: 300px;
+    }
+    .flower-name,.price
+    {
+        font-size: 22px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+    .price{
+        font-weight: 700;
+        margin-top: -10px ;
+        margin-bottom: 20px;
+    }
+    .add-to-cart
+    {
+        max-width: 240px;
+        height:40px;
+        font-size: 1rem;
+    }
 }
 
 
@@ -157,59 +216,87 @@ span{
 /*  */
 .flower-lover
 {
-     margin: 100px auto;
+     margin: 6.25rem auto;
 }
 .store-container
 {
-    margin-top: -160px;
+    margin-top: -10rem;
     display: flex;
     justify-content: space-between;
-    gap: 60px;
+    gap: 3.75rem;
 }
 .flower-store
 {
-    width: 540px;
-    height: 596px;
+    width: 33.75rem;
+    height: 37.25rem;
     z-index: -1;
 }
 .plant-store-title
 {
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 .description-list li
 {
-    font-size: 22px;
+    font-size: 1.375rem;
     color: gray;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
 .badge{
 
-    width: 286px;
-    height: 286px;
+    width: 17.875rem;
+    height: 17.875rem;
     z-index: 1;
-    margin-left: 350px;
+    margin-left: 21.875rem;
 
 }
+
+@media screen and (max-width:576px) {
+    .store-container
+    {
+        display: block;
+        margin: auto 25px;
+    }
+    .flower-store
+    {
+        width: 100%;
+        height: 420px;
+    }
+.plant-store-title
+{
+    font-size: 24px;
+}
+.description-list li
+{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.badge
+{
+    display: none;
+}
+
+}
+
 
 .deals
 {
     text-align: center;
-    margin: 130px auto;
+    margin: 8.125rem auto;
 }
 .deals-title
 {
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: bold;
-    margin-bottom: -20px;
+    margin-bottom: -1.25rem;
 }
 .deals-description
 {
-    font-size: 22px;
-    width: 888px;
-    margin: 45px auto;
+    font-size: 1.375rem;
+    width: 55.5rem;
+    margin: 2.8125rem auto;
     color: grey;
 }
 .flowers-advertise
@@ -228,37 +315,37 @@ span{
 }
 .zabo-container
 {
-    margin-top: 20px;
+    margin-top: 1.25rem;
     background-image: url('../assets/deal-zabo.png');
     background-repeat: no-repeat;
-    width: 753px;
-    height:419px;
-    border-radius: 14px;
+    width: 47.0625rem;
+    height:26.1875rem;
+    border-radius: 0.875rem;
 }
 .bloom-container, .ana-container
 {
     background-repeat: no-repeat;
-    width: 367px;
-    height: 199px;
-    border-radius: 14px;
+    width: 22.9375rem;
+    height: 12.4375rem;
+    border-radius: 0.875rem;
     
 }
 .bloom,.ana, .shop-now{
-    padding-top: 60px;
+    padding-top: 3.75rem;
     color: white;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
 }
 .zabo{
-    padding-top: 140px;
-    margin-bottom:15px;
+    padding-top: 8.75rem;
+    margin-bottom:0.9375rem;
     color: white;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 .zabo-shop-now{
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 600;
     color: white;
 }
@@ -268,25 +355,23 @@ span{
     .deals
     {
         text-align: center;
-        margin: 100px auto;
+        margin: 100px 25px;
     }
     .deals-title
     {
         font-size: 24px;
-        margin-bottom: -20px;
+        margin-bottom: 25px;
     }
     .deals-description
     {
         font-size: 14px;
-        margin: 45px 25px;
-        width: 100%;
-
+        width: 90%;
+;
     }
 
     .flowers-advertise
     {
         display: block;
-        margin: auto 25px;
     }
     .bloom-container, .ana-container, .zabo-container
     {
@@ -310,34 +395,34 @@ span{
     background-image: url('../assets/news-letter-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1530px;
-    height: 533px;
-    margin-left: -200px;
+    width: 95.625rem;
+    height: 33.3125rem;
+    margin-left: -12.5rem;
 }
 .action-container
 {
-    padding-top: 160px;
+    padding-top: 10rem;
 }
 .join-title
 {
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: bold;
     color: white;
 }
 #email
 {
-    width: 575px;
-    font-size: 16px;
+    width: 35.9375rem;
+    font-size: 1rem;
     color: grey;
-    padding: 10px;
+    padding: 0.625rem;
 }
 .subscribe
 {
-    width: 185px;
-    height: 42px;
-    font-size: 16px;
-    padding: 10px;
-    margin-left: -5px;
+    width: 11.5625rem;
+    height: 2.625rem;
+    font-size: 1rem;
+    padding: 0.625rem;
+    margin-left: -0.3125rem;
     color: white;
     background-color: #E95A08;
     border: none;
@@ -374,18 +459,18 @@ span{
 }
 
 footer{
-    margin:50px auto;
+    margin:3.125rem auto;
 }
 .footer-container
 {
     display: flex;
     justify-content: space-between;
-    gap:75px;
+    gap:4.6875rem;
     color: grey;
 }
 .content
 {
-    width:360px;
+    width:22.5rem;
 }
 .links{
     list-style: none;
@@ -397,12 +482,12 @@ footer{
     color: grey;
 }
 .links li{
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
 
 .contact-icon
 {
-    margin-left: 24px;
+    margin-left: 1.5rem;
 }
 
 /* footer responsive */
