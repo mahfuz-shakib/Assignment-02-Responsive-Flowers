@@ -210,7 +210,7 @@ span{
     font-size: 22px;
     width: 888px;
     margin: 45px auto;
-
+    color: grey;
 }
 .flowers-advertise
 {
@@ -262,6 +262,48 @@ span{
     font-weight: 600;
     color: white;
 }
+
+@media screen and (max-width:576px) {
+
+    .deals
+    {
+        text-align: center;
+        margin: 100px auto;
+    }
+    .deals-title
+    {
+        font-size: 24px;
+        margin-bottom: -20px;
+    }
+    .deals-description
+    {
+        font-size: 14px;
+        margin: 45px 25px;
+        width: 100%;
+
+    }
+
+    .flowers-advertise
+    {
+        display: block;
+        margin: auto 25px;
+    }
+    .bloom-container, .ana-container, .zabo-container
+    {
+        width: 100%;
+        height: 205px;
+        background-size: cover;
+    }
+    .zabo, .zabo-shop-now{
+        padding-top: 60px;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+}
+
+
+/*  */
 .call-to-join
 {
     text-align: center;
@@ -301,7 +343,35 @@ span{
     border: none;
 }
 
-
+/* call - responsive */
+@media screen and (max-width:576px) {
+    .call-to-join
+    {
+        margin: 0 auto;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 275px;
+    }
+    .action-container
+{
+    padding-top: 65px;
+}
+.join-title
+{
+    font-size: 20px;
+}
+#email
+{
+    width: 220px;
+}
+.subscribe
+{
+    width: 100px;
+    height: 42px;
+    padding: 10px;
+}
+}
 
 footer{
     margin:50px auto;
@@ -333,5 +403,26 @@ footer{
 .contact-icon
 {
     margin-left: 24px;
+}
+
+/* footer responsive */
+
+@media screen and (max-width:576px) {
+    .footer-container{
+        display: block;
+    }
+    .content{
+        margin-left: 25px;
+    }
+    .content .brand-logo
+    {
+        width: 180px;
+        height: 110px;
+    }
+    .links
+    {
+        margin: 30px auto;
+        margin-left: -15px;
+    }
 }
 
